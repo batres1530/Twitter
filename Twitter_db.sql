@@ -14,4 +14,9 @@ PRIMARY KEY (user_id)
 );
  SELECT * FROM users;
  
- INSERT INTO users (user_id,)
+ INSERT INTO users (user_handle,email_address,first_name,last_name,phonenumber) values
+('sdbm15', 'sdbm15@gmail.com', 'David', 'Martinez', '96309694'),
+('msmith', 'msmith@example.com', 'Mary', 'Smith', '2234567890'),
+('ajones', 'ajones@example.com', 'Alice', 'Jones', '3234567890'),
+('bjohnson', 'bjohnson@example.com', 'Bob', 'Johnson', '4234567890'),
+('csanchez', 'csanchez@example.com', 'Carlos', 'Sánchez', '5234567890');
